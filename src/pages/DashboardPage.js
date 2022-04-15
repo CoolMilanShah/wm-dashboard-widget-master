@@ -31,9 +31,9 @@ class DashboardPage extends React.Component {
 
         <Row>
           <Col lg="6" md="12" sm="12" xs="12">
-            <StackedBarChart
+            <BarChart
               displayTitle="Gross Revenue Percentage"
-              barType="GrossRevenueBarData"
+              barType="GrossRevenuePercentageBarData"
             />
           </Col>
 
