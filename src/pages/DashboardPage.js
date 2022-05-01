@@ -32,7 +32,7 @@ class DashboardPage extends React.Component {
         <Row>
           <Col lg="6" md="12" sm="12" xs="12">
             <BarChart
-              displayTitle="Gross Revenue Percentage"
+              displayTitle="Gross Revenue %"
               barType="GrossRevenuePercentageBarData"
             />
           </Col>
